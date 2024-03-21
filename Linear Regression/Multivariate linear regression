@@ -1,0 +1,51 @@
+clear all
+%Multivariable_Linear_Regression    
+% X: independent variables matrix
+train=readtable("train.csv");
+Y=train.total_fare(1:1500);
+%input variables
+X=[train.distance_traveled(1:1500),train.total_fare(1:1500)]%,train.tip(1:100),train.miscellaneous_fees(1:100)];
+%defining theta
+X=normalize(X);
+theta=ones(2,1);
+b=1;
+N=100;
+iterations=200;
+cost=zeros(iterations,1);
+a=0.1;  
+cost_lst = zeros(1,iterations);
+m = size(X,1);
+for i =1:iterations
+       
+    H = X*theta+b;
+    gradients = (2/m)*(X'*(H-Y));
+    theta = theta - a *gradients;
+    b=b-a*sum(H-Y)/m;
+    cost_value = 1/(2*m)*((H - Y).^2); 
+    %Calculate the loss for each training instance
+    total = 0;
+    for j =1:m
+        total = total+ cost_value(j,1);
+    end
+    %Calculate the cost function for each iteration
+    cost_lst(i)=total;
+end
+
+
+subplot(2,1,1)
+plot(1:200,cost_lst(1:200))
+disp(theta')
+disp(b')
+
+subplot(2,1,2)
+plot(X(:,1),H,'x', X(:,2),H,'-')
+hold on 
+scatter(X(:,1),H,'x','r')
+scatter( X(:,2),H,'o')
+
+
+Ytest=train.total_fare(101:151)
+Xtest=[train.distance_traveled(101:151),train.total_fare(101:151)];
+Xtest=normalize(Xtest);
+H= Xtest*theta+b
+
