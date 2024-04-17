@@ -2,7 +2,7 @@
 
 Welcome to our K-Means Clustering project repository! Here, we delve into the fascinating world of unsupervised learning, specifically focusing on clustering individuals based on their annual income and expenditures using the K-Means algorithm.
 
-### Dataset
+### Dataset 
 Our dataset serves as the backbone of this exploration. It comprises anonymized records of individuals, each characterized by their annual income and corresponding expenditures.
 
 ### Clustering
