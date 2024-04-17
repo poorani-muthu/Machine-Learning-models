@@ -1,6 +1,5 @@
 
-
-### 🚀 Multiclass Classification Playground 🤖
+## 🚀 Multiclass Classification Playground 🤖
 
 Welcome to the Multiclass Classification Playground! This repository is your ticket to exploring the fascinating world of multiclass classification using the scikit-learn's `make_classification` dataset.
 
