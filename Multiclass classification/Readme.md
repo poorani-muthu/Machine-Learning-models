@@ -1,6 +1,6 @@
 
 
-# 🚀 Multiclass Classification Playground 🤖
+### 🚀 Multiclass Classification Playground 🤖
 
 Welcome to the Multiclass Classification Playground! This repository is your ticket to exploring the fascinating world of multiclass classification using the scikit-learn's `make_classification` dataset.
 
@@ -9,31 +9,6 @@ Welcome to the Multiclass Classification Playground! This repository is your tic
 - **multiclass_classification.ipynb**: Your interactive journey awaits in this Jupyter Notebook. Dive in to uncover the secrets of multiclass classification.
 - **requirements.txt**: Don't forget to equip yourself with the necessary tools by installing the dependencies listed here.
 
-## 💻 Getting Started
-
-Ready to embark on your adventure? Follow these steps:
-
-1. **Clone this Repository**:
-   ```
-   git clone https://github.com/poorani-muthu/Machine-Learning-models/Multiclass classification.git
-   ```
-
-2. **Navigate to the Project Directory**:
-   ```
-   cd multiclass-classification
-   ```
-
-3. **Install Dependencies**:
-   ```
-   pip install -r requirements.txt
-   ```
-
-4. **Launch the Jupyter Notebook**:
-   ```
-   jupyter notebook multiclass_classification.ipynb
-   ```
-
-5. **Explore, Experiment, and Enjoy!**
 
 ## 📊 Dataset Overview
 
