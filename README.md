@@ -7,7 +7,7 @@ This repository is a collection of projects and resources focused on machine lea
 📁 **Project Structure:**
 
 - `neural_network`: Contains implementations and examples of neural network models.
-- `means`: Implements algorithms related to mean calculations.
+- `kmeans`: Implements algorithms related to K centroid based clustering.
 - `pca`: Includes scripts and notebooks demonstrating the application of PCA (Principal Component Analysis).
 - `logistic_multiclass_classification`: Code and notebooks for logistic multiclass classification tasks.
 
@@ -15,7 +15,9 @@ This repository is a collection of projects and resources focused on machine lea
 
 - **Neural Network Tutorial**
 - **PCA Basics**
-- **Logistic Multiclass Classification Examples**
+- **Multiclass Classification using Logistic Regression**
+- **Linear Regression**
+- **Regularization**
 
 🚀 **Contributing:**
 
@@ -27,6 +29,6 @@ This repository is licensed under the MIT License. See the `LICENSE` file for de
 
 📧 **Contact:**
 
-For any questions or suggestions, feel free to reach out to us at rsmpoorani@gmail.com.
+For any questions or suggestions, feel free to reach out to me at rsmpoorani@gmail.com.
 
 Happy coding and exploring the world of machine learning! 🌟
